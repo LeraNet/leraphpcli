@@ -1,8 +1,16 @@
 # leraphpcli
 
-This PHP script allows you to colorize terminal output with different text colors, background colors, and text effects.
+This PHP script that adds 2 functions
 
-## Usage
+## get_input()
+
+1. Use get_input() function to ask for users input
+```php
+echo "What is your name?";
+$name = get_input();
+```
+
+## textColor
 
 1. Instantiate an object of the `textColor` class:
 
@@ -47,6 +55,11 @@ echo $string;
 $error = new textColor('red');
 $string = $error->getColoredString('Error');
 echo $string;
+
+// Get and print an input
+echo "What is your name?"
+$name = get_input();
+echo "Hello $name!";
 ```
 
 ## Credits
