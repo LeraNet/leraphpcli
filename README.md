@@ -29,26 +29,25 @@ Here are some examples of how to use the `textColor` class:
 
 ```php
 // Print "Hello, world!" in red text on a yellow background with bold text effect
-$textColor = new textColor('red', 'yellow', 'bold');
-$string = $textColor->getColoredString('Hello, world!');
+$red = new textColor('red', 'yellow', 'bold');
+$string = $red->getColoredString('Hello, world!');
 echo $string;
 
 // Print "Success" in green text
-$textColor = new textColor('green');
-$string = $textColor->getColoredString('Success');
+$success = new textColor('green');
+$string = $success->getColoredString('Success');
 echo $string;
 
 // Print "Warning" in yellow text
-$textColor = new textColor('yellow');
-$string = $textColor->getColoredString('Warning');
+$warning = new textColor('yellow');
+$string = $warning->getColoredString('Warning');
 echo $string;
 
 // Print "Error" in red text
-$textColor = new textColor('red');
-$string = $textColor->getColoredString('Error');
+$error = new textColor('red');
+$string = $error->getColoredString('Error');
 echo $string;
 ```
 
 ## Credits
-
-This script is based on the work of [Martin Angelov](https://tutorialzine.com/2013/10/terminal-in-php-via-sockets) and [zbrox](https://gist.github.com/zbrox/2948808).
+there is no credits
