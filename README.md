@@ -1,7 +1,5 @@
 # leraphpcli
-
-This PHP script that adds 2 functions
-
+omfg
 ## get_input()
 
 1. Use get_input() function to ask for users input
