@@ -1,19 +1,38 @@
 # leraphpcli
-omfg
-## get_input()
+A lightweight php library for your php cli needs. <br>
+<br>
+**Features :**
+- ⌨️ Get user input! 
+- 🎨 Have colorful text!
 
+## get_input()
+Pauses the php script and asks user for an input!
+### Usage
 1. Use get_input() function to ask for users input
+```php
+$input = get_input();
+echo $input;
+```
+
+### Examples
+
+Here are some examples of how to use the `get_input` function:
+
 ```php
 echo "What is your name?";
 $name = get_input();
+echo "Welcome $name!";
 ```
 
 ## textColor
-
+Helps you generate text styles that you can use later!
+### Usage
 1. Instantiate an object of the `textColor` class:
 
 ```php
-$textColor = new textColor();
+//Get the user's name
+echo "What is your name?";
+$name = get_input();
 ```
 
 2. Set the text color, background color, and text effect using the `__construct()` method:
@@ -78,7 +97,7 @@ $string = $textColor->getColoredString('Hello, world!');
 echo $string;
 ```
 
-## Examples
+### Examples
 
 Here are some examples of how to use the `textColor` class:
 
@@ -102,11 +121,6 @@ echo $string;
 $error = new textColor('red');
 $string = $error->getColoredString('Error');
 echo $string;
-
-// Get and print an input
-echo "What is your name?"
-$name = get_input();
-echo "Hello $name!";
 ```
 
 ## Credits
