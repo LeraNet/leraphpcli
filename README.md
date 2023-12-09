@@ -19,9 +19,58 @@ $textColor = new textColor();
 2. Set the text color, background color, and text effect using the `__construct()` method:
 
 ```php
-$textColor = new textColor('red', 'yellow', 'bold');
+$textColor = new textColor('text color', 'background color', 'text type');
 ```
 
+<details>
+  <summary>All Text Colors</summary>
+  <pre>black, 
+red, 
+green, 
+yellow, 
+blue, 
+magenta, 
+cyan, 
+light gray, 
+dark gray, 
+light red, 
+light green, 
+light yellow, 
+light blue, 
+light magenta
+light cyan
+white</pre>
+</details>
+
+<details>
+  <summary>All Background Colors</summary>
+  <pre>black, 
+red, 
+green, 
+yellow, 
+blue, 
+magenta, 
+cyan, 
+light gray, 
+dark gray, 
+light red, 
+light green, 
+light yellow, 
+light blue, 
+light magenta
+light cyan
+white</pre>
+</details>
+
+<details>
+  <summary>All Text Types</summary>
+  <pre>bold,
+dim,
+underlined,
+blink,
+reverse,
+hidden</pre>
+</details>
 3. Use the `getColoredString()` method to colorize a string:
 
 ```php
